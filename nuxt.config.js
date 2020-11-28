@@ -1,6 +1,9 @@
 export default {
   target: 'static',
   ssr: false,
+  generate: {
+    fallback: true
+  },
   head: {
     title: 'Dev.to clone with NuxtJS',
     meta: [
